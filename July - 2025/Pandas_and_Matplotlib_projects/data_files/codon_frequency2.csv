@@ -1,0 +1,5 @@
+codon,Aminoacid,Frequency
+AUG,M,0.45
+GCU,A,0.21
+UUU,F,0.31
+UGA,Stop,0.00
