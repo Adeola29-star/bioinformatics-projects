@@ -1,0 +1,6 @@
+Gene_ID,Organism,Length_bp,GC_Content
+G1,E.coli,1500,52.3
+G2,S.aureus,1350,38.9
+G3,B.subtilis,2100,44.1
+G4,E.coli,1750,55.6
+G5,S.aureus,1980,35.4

@@ -1,0 +1,7 @@
+>sequence_1
+ATGCCGTTA
+TTTAGCXTG
+
+>sequence_2
+CGGCTTAA
+NNNTTAACG
