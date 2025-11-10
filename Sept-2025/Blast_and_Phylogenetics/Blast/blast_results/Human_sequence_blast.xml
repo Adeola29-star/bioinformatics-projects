@@ -1,0 +1,1537 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>core_nt</BlastOutput_db>
+  <BlastOutput_query-ID>Query_4902125</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>33</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_4902125</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>33</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|3004311084|ref|XM_074627654.1|</Hit_id>
+  <Hit_def>PREDICTED: Sebastes fasciatus serine/threonine kinase 24b (STE20 homolog, yeast) (stk24b), mRNA</Hit_def>
+  <Hit_accession>XM_074627654</Hit_accession>
+  <Hit_len>3663</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>0.00868886</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>378</Hsp_hit-from>
+      <Hsp_hit-to>408</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>GCTAGCTAGCTAACGATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>GCTAGCGAGCTAACCATGCTAGCTAGCTGAC</Hsp_hseq>
+      <Hsp_midline>|||||| ||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|3040443113|ref|XM_076148833.1|</Hit_id>
+  <Hit_def>PREDICTED: Genypterus blacodes serine/threonine kinase 24b (STE20 homolog, yeast) (stk24b), mRNA</Hit_def>
+  <Hit_accession>XM_076148833</Hit_accession>
+  <Hit_len>4489</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>0.00868886</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>272</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>GCTAGCTAGCTAACGATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>GCTAGCAAGCTAACCATGCTAGCTAGCTGAC</Hsp_hseq>
+      <Hsp_midline>|||||| ||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|2069445192|ref|XR_006094023.1|</Hit_id>
+  <Hit_def>PREDICTED: Thunnus maccoyii uncharacterized LOC121891062 (LOC121891062), transcript variant X1, ncRNA</Hit_def>
+  <Hit_accession>XR_006094023</Hit_accession>
+  <Hit_len>2861</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4688</Hsp_bit-score>
+      <Hsp_score>49</Hsp_score>
+      <Hsp_evalue>0.105852</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>1595</Hsp_hit-from>
+      <Hsp_hit-to>1628</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>ATGCTAGCTAGCTAACG-ATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>ATGCTAGCTAGCTAACGTTTGCTAGCTAGCTAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||  |||||||||||| ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>39.157</Hsp_bit-score>
+      <Hsp_score>42</Hsp_score>
+      <Hsp_evalue>4.50094</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>1614</Hsp_hit-from>
+      <Hsp_hit-to>1646</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>TGCTAGCTAGCTAACG-ATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>TGCTAGCTAGCTAACGTTTGCTACCTAGCTAAC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||  ||||| |||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|2898634721|ref|XM_071152402.1|</Hit_id>
+  <Hit_def>PREDICTED: Oncorhynchus clarkii lewisi ankyrin repeat family A protein 2-like (LOC139408470), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_071152402</Hit_accession>
+  <Hit_len>1705</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4688</Hsp_bit-score>
+      <Hsp_score>49</Hsp_score>
+      <Hsp_evalue>0.105852</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>TGCTAGCTAGCTAACGATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>TGTTAGCTAGCTAACCATGCTAGCTAGCTAAC</Hsp_hseq>
+      <Hsp_midline>|| |||||||||||| ||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|2791011096|ref|XR_010925737.1|</Hit_id>
+  <Hit_def>PREDICTED: Thunnus thynnus homeodomain-interacting protein kinase 2-like (LOC137175891), transcript variant X2, misc_RNA</Hit_def>
+  <Hit_accession>XR_010925737</Hit_accession>
+  <Hit_len>6176</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4688</Hsp_bit-score>
+      <Hsp_score>49</Hsp_score>
+      <Hsp_evalue>0.105852</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>3366</Hsp_hit-from>
+      <Hsp_hit-to>3399</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>ATGCTAGCTAGCTAACG-ATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>ATGCTAGCTAGCTAACGTTTGCTAGCTAGCTAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||  |||||||||||| ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>39.157</Hsp_bit-score>
+      <Hsp_score>42</Hsp_score>
+      <Hsp_evalue>4.50094</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>3385</Hsp_hit-from>
+      <Hsp_hit-to>3417</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>TGCTAGCTAGCTAACG-ATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>TGCTAGCTAGCTAACGTTTGCTACCTAGCTAAC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||  ||||| |||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|2790854655|ref|XM_067611710.1|</Hit_id>
+  <Hit_def>PREDICTED: Thunnus thynnus transmembrane protein 200B (tmem200b), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_067611710</Hit_accession>
+  <Hit_len>13695</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4688</Hsp_bit-score>
+      <Hsp_score>49</Hsp_score>
+      <Hsp_evalue>0.105852</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>7834</Hsp_hit-from>
+      <Hsp_hit-to>7801</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>ATGCTAGCTAGCTAACGA-TGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>ATGCTAGCTAGCTAACGATTGCTACCTAGCTAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||| ||||| |||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|2790854660|ref|XM_067611711.1|</Hit_id>
+  <Hit_def>PREDICTED: Thunnus thynnus transmembrane protein 200B (tmem200b), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_067611711</Hit_accession>
+  <Hit_len>13580</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4688</Hsp_bit-score>
+      <Hsp_score>49</Hsp_score>
+      <Hsp_evalue>0.105852</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>7719</Hsp_hit-from>
+      <Hsp_hit-to>7686</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>ATGCTAGCTAGCTAACGA-TGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>ATGCTAGCTAGCTAACGATTGCTACCTAGCTAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||| ||||| |||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|2786115807|ref|XM_067246007.1|</Hit_id>
+  <Hit_def>PREDICTED: Osmerus mordax SID1 transmembrane family, member 2 (sidt2), mRNA</Hit_def>
+  <Hit_accession>XM_067246007</Hit_accession>
+  <Hit_len>3808</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.5672</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>0.105852</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>32</Hsp_query-to>
+      <Hsp_hit-from>238</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>GCTAGCTAGCTAACGA-TGCTAGCTAGCTGA</Hsp_qseq>
+      <Hsp_hseq>GCTAGCTAGCTAACGACTGCTAGCTGGCTGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||| |||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|2443628346|ref|XM_053686564.1|</Hit_id>
+  <Hit_def>PREDICTED: Ictalurus punctatus mitogen-activated protein kinase kinase kinase 7 (map3k7), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_053686564</Hit_accession>
+  <Hit_len>4185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.5672</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>0.105852</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>453</Hsp_hit-from>
+      <Hsp_hit-to>482</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>GCTAGCTAGCTAACGATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>GCTAGCTAGCTAAC-ATGCTAGCTAGCTAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| ||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|2443628343|ref|XM_053686563.1|</Hit_id>
+  <Hit_def>PREDICTED: Ictalurus punctatus mitogen-activated protein kinase kinase kinase 7 (map3k7), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_053686563</Hit_accession>
+  <Hit_len>4266</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.5672</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>0.105852</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>453</Hsp_hit-from>
+      <Hsp_hit-to>482</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>GCTAGCTAGCTAACGATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>GCTAGCTAGCTAAC-ATGCTAGCTAGCTAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| ||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|2842249448|ref|XM_020104496.2|</Hit_id>
+  <Hit_def>PREDICTED: Paralichthys olivaceus serine/threonine kinase 24b (STE20 homolog, yeast) (stk24b), mRNA</Hit_def>
+  <Hit_accession>XM_020104496</Hit_accession>
+  <Hit_len>4046</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.36946</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>260</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>GCTAGCTAGCTAACGATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>GCAAGCGAGCTAACCATGCTAGCTAGCTGAC</Hsp_hseq>
+      <Hsp_midline>|| ||| ||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|2651149498|ref|XM_062380764.1|</Hit_id>
+  <Hit_def>PREDICTED: Platichthys flesus serine/threonine kinase 24b (STE20 homolog, yeast) (stk24b), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_062380764</Hit_accession>
+  <Hit_len>4079</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.36946</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>GCTAGCTAGCTAACGATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>GCAAGCGAGCTAACCATGCTAGCTAGCTGAC</Hsp_hseq>
+      <Hsp_midline>|| ||| ||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1934591577|ref|XM_037761901.1|</Hit_id>
+  <Hit_def>PREDICTED: Sebastes umbrosus serine/threonine kinase 24b (STE20 homolog, yeast) (stk24b), mRNA</Hit_def>
+  <Hit_accession>XM_037761901</Hit_accession>
+  <Hit_len>4813</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.36946</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>625</Hsp_hit-from>
+      <Hsp_hit-to>655</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>GCTAGCTAGCTAACGATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>GCTAACGAGCTAACCATGCTAGCTAGCTGAC</Hsp_hseq>
+      <Hsp_midline>|||| | ||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|2916612917|ref|XM_071514642.1|</Hit_id>
+  <Hit_def>PREDICTED: Centroberyx affinis serine/threonine kinase 24b (STE20 homolog, yeast) (stk24b), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_071514642</Hit_accession>
+  <Hit_len>5044</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.36946</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>235</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>GCTAGCTAGCTAACGATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>GCTAGCAAGCTAACCATGTTAGCTAGCTGAC</Hsp_hseq>
+      <Hsp_midline>|||||| ||||||| ||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|2438164201|ref|XM_053417554.1|</Hit_id>
+  <Hit_def>PREDICTED: Pleuronectes platessa sodium-driven chloride bicarbonate exchanger (LOC128431280), mRNA</Hit_def>
+  <Hit_accession>XM_053417554</Hit_accession>
+  <Hit_len>4785</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.36946</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>463</Hsp_hit-from>
+      <Hsp_hit-to>433</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>GCTAGCTAGCTAACGATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>GCAAGCGAGCTAACCATGCTAGCTAGCTGAC</Hsp_hseq>
+      <Hsp_midline>|| ||| ||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|2806705522|ref|XM_068567046.1|</Hit_id>
+  <Hit_def>PREDICTED: Clinocottus analis Rho guanine nucleotide exchange factor 49 (arhgef49), mRNA</Hit_def>
+  <Hit_accession>XM_068567046</Hit_accession>
+  <Hit_len>5277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.36946</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>4665</Hsp_hit-from>
+      <Hsp_hit-to>4695</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>GCTAGCTAGCTAACGATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>GCTACCTAGCTAACGATTCTAGCTACCTGAC</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||| ||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|2438164203|ref|XM_053417556.1|</Hit_id>
+  <Hit_def>PREDICTED: Pleuronectes platessa serine/threonine kinase 24b (STE20 homolog, yeast) (stk24b), mRNA</Hit_def>
+  <Hit_accession>XM_053417556</Hit_accession>
+  <Hit_len>3972</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.36946</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>245</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>GCTAGCTAGCTAACGATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>GCAAGCGAGCTAACCATGCTAGCTAGCTGAC</Hsp_hseq>
+      <Hsp_midline>|| ||| ||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|2806674913|ref|XM_068590338.1|</Hit_id>
+  <Hit_def>PREDICTED: Clinocottus analis sodium-driven chloride bicarbonate exchanger-like (LOC137793905), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_068590338</Hit_accession>
+  <Hit_len>7095</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.36946</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>270</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>GCTAGCTAGCTAACGATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>GCTAACGAGCTAACCATGCTAGCTAGCTGAC</Hsp_hseq>
+      <Hsp_midline>|||| | ||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|2437499554|ref|XM_026917616.3|</Hit_id>
+  <Hit_def>PREDICTED: Pangasianodon hypophthalmus angel homolog 2 (Drosophila) (angel2), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_026917616</Hit_accession>
+  <Hit_len>3028</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.36946</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>236</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>ATGCTAGCTAGCTAA--CGATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>ATGCTAGCTAGCTAACCCCATGCTAGCTAGCTAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||  | ||||||||||||| ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.0587</Hsp_bit-score>
+      <Hsp_score>43</Hsp_score>
+      <Hsp_evalue>4.50094</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>31</Hsp_query-to>
+      <Hsp_hit-from>255</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>ATGCTAGCTAGCTAACGATGCTAGCTAGCTG</Hsp_qseq>
+      <Hsp_hseq>ATGCTAGCTAGCTAACGCTGCTTGCT-GCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||| |||| ||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|2806674911|ref|XM_068590337.1|</Hit_id>
+  <Hit_def>PREDICTED: Clinocottus analis sodium-driven chloride bicarbonate exchanger-like (LOC137793905), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_068590337</Hit_accession>
+  <Hit_len>7124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.36946</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>264</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>GCTAGCTAGCTAACGATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>GCTAACGAGCTAACCATGCTAGCTAGCTGAC</Hsp_hseq>
+      <Hsp_midline>|||| | ||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|2186791400|ref|XM_046350135.1|</Hit_id>
+  <Hit_def>PREDICTED: Oncorhynchus gorbuscha ubiquitin-protein ligase E3B-like (LOC124036043), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_046350135</Hit_accession>
+  <Hit_len>6861</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.36946</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>245</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>GCTAGCTAGCTAACGATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>GCTAGCTAGCTAACCATAATAGCTAGCTGAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| ||  ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|2029053677|ref|XM_041031923.1|</Hit_id>
+  <Hit_def>PREDICTED: Toxotes jaculatrix serine/threonine kinase 24b (STE20 homolog, yeast) (stk24b), mRNA</Hit_def>
+  <Hit_accession>XM_041031923</Hit_accession>
+  <Hit_len>2312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.36946</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>257</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>GCTAGCTAGCTAACGATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>GCTAGTGAGCTAACCATGCTAGCTAGCTGAC</Hsp_hseq>
+      <Hsp_midline>|||||  ||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|2806674915|ref|XM_068590339.1|</Hit_id>
+  <Hit_def>PREDICTED: Clinocottus analis serine/threonine kinase 24b (STE20 homolog, yeast) (stk24b), mRNA</Hit_def>
+  <Hit_accession>XM_068590339</Hit_accession>
+  <Hit_len>3942</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.36946</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>385</Hsp_hit-from>
+      <Hsp_hit-to>415</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>GCTAGCTAGCTAACGATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>GCTAACGAGCTAACCATGCTAGCTAGCTGAC</Hsp_hseq>
+      <Hsp_midline>|||| | ||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|2184471904|ref|XR_006825633.1|</Hit_id>
+  <Hit_def>PREDICTED: Micropterus dolomieu serine/threonine kinase 24b (STE20 homolog, yeast) (stk24b), transcript variant X3, misc_RNA</Hit_def>
+  <Hit_accession>XR_006825633</Hit_accession>
+  <Hit_len>2104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.36946</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>315</Hsp_hit-from>
+      <Hsp_hit-to>345</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>GCTAGCTAGCTAACGATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>GCTAGCGGGCTAACCATGCTAGCTAGCTGAC</Hsp_hseq>
+      <Hsp_midline>||||||  |||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|2437499567|ref|XM_026917619.3|</Hit_id>
+  <Hit_def>PREDICTED: Pangasianodon hypophthalmus angel homolog 2 (Drosophila) (angel2), transcript variant X8, mRNA</Hit_def>
+  <Hit_accession>XM_026917619</Hit_accession>
+  <Hit_len>2896</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.36946</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>236</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>ATGCTAGCTAGCTAA--CGATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>ATGCTAGCTAGCTAACCCCATGCTAGCTAGCTAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||  | ||||||||||||| ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.0587</Hsp_bit-score>
+      <Hsp_score>43</Hsp_score>
+      <Hsp_evalue>4.50094</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>31</Hsp_query-to>
+      <Hsp_hit-from>255</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>ATGCTAGCTAGCTAACGATGCTAGCTAGCTG</Hsp_qseq>
+      <Hsp_hseq>ATGCTAGCTAGCTAACGCTGCTTGCT-GCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||| |||| ||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|2916612919|ref|XM_071514649.1|</Hit_id>
+  <Hit_def>PREDICTED: Centroberyx affinis serine/threonine kinase 24b (STE20 homolog, yeast) (stk24b), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_071514649</Hit_accession>
+  <Hit_len>2031</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.36946</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>235</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>GCTAGCTAGCTAACGATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>GCTAGCAAGCTAACCATGTTAGCTAGCTGAC</Hsp_hseq>
+      <Hsp_midline>|||||| ||||||| ||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|2924193855|ref|XM_071906877.1|</Hit_id>
+  <Hit_def>PREDICTED: Centroberyx gerrardi serine/threonine kinase 24b (STE20 homolog, yeast) (stk24b), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_071906877</Hit_accession>
+  <Hit_len>5044</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.36946</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>235</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>GCTAGCTAGCTAACGATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>GCTAGCAAGCTAACCATGTTAGCTAGCTGAC</Hsp_hseq>
+      <Hsp_midline>|||||| ||||||| ||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|2622705731|ref|XM_061032186.1|</Hit_id>
+  <Hit_def>PREDICTED: Labrus mixtus serine/threonine kinase 24b (STE20 homolog, yeast) (stk24b), mRNA</Hit_def>
+  <Hit_accession>XM_061032186</Hit_accession>
+  <Hit_len>3846</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.36946</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>238</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>GCTAGCTAGCTAACGATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>GCTAGCGCGCTAACCATGCTAGCTAGCTGAC</Hsp_hseq>
+      <Hsp_midline>||||||  |||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|2276559400|ref|XM_049569829.1|</Hit_id>
+  <Hit_def>PREDICTED: Epinephelus fuscoguttatus serine/threonine kinase 24b (STE20 homolog, yeast) (stk24b), mRNA</Hit_def>
+  <Hit_accession>XM_049569829</Hit_accession>
+  <Hit_len>4159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.36946</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>274</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>GCTAGCTAGCTAACGATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>GCTAGCGAGCTAACCATGTTAGCTAGCTGAC</Hsp_hseq>
+      <Hsp_midline>|||||| ||||||| ||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|2174071544|ref|XM_045702968.1|</Hit_id>
+  <Hit_def>PREDICTED: Salmo salar ubiquitin-protein ligase E3B (LOC106580104), mRNA</Hit_def>
+  <Hit_accession>XM_045702968</Hit_accession>
+  <Hit_len>6826</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.36946</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>GCTAGCTAGCTAACGATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>GCTAGCTAGCTAACCATAATAGCTAGCTGAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| ||  ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|2746844404|ref|XM_020644917.3|</Hit_id>
+  <Hit_def>PREDICTED: Labrus bergylta serine/threonine kinase 24b (STE20 homolog, yeast) (stk24b), mRNA</Hit_def>
+  <Hit_accession>XM_020644917</Hit_accession>
+  <Hit_len>3842</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.36946</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>242</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>GCTAGCTAGCTAACGATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>GCTAGCGCGCTAACCATGCTAGCTAGCTGAC</Hsp_hseq>
+      <Hsp_midline>||||||  |||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|2065107750|ref|XM_024439380.2|</Hit_id>
+  <Hit_def>PREDICTED: Oncorhynchus tshawytscha ubiquitin-protein ligase E3B (LOC112263288), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_024439380</Hit_accession>
+  <Hit_len>6865</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.36946</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>255</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>GCTAGCTAGCTAACGATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>GCTAGCTAGCTAACCATAATAGCTAGCTGAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| ||  ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|2883446739|ref|XM_070855419.1|</Hit_id>
+  <Hit_def>PREDICTED: Pempheris klunzingeri serine/threonine kinase 24b (STE20 homolog, yeast) (stk24b), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_070855419</Hit_accession>
+  <Hit_len>2735</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.36946</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>242</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>GCTAGCTAGCTAACGATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>GCTAGCGAGCTAACCATGTTAGCTAGCTGAC</Hsp_hseq>
+      <Hsp_midline>|||||| ||||||| ||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|2924193859|ref|XM_071906879.1|</Hit_id>
+  <Hit_def>PREDICTED: Centroberyx gerrardi serine/threonine kinase 24b (STE20 homolog, yeast) (stk24b), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_071906879</Hit_accession>
+  <Hit_len>1969</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.36946</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>235</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>GCTAGCTAGCTAACGATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>GCTAGCAAGCTAACCATGTTAGCTAGCTGAC</Hsp_hseq>
+      <Hsp_midline>|||||| ||||||| ||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|2065107753|ref|XM_024439381.2|</Hit_id>
+  <Hit_def>PREDICTED: Oncorhynchus tshawytscha ubiquitin-protein ligase E3B (LOC112263288), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_024439381</Hit_accession>
+  <Hit_len>3858</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.36946</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>255</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>GCTAGCTAGCTAACGATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>GCTAGCTAGCTAACCATAATAGCTAGCTGAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| ||  ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|2184471901|ref|XM_046053557.1|</Hit_id>
+  <Hit_def>PREDICTED: Micropterus dolomieu serine/threonine kinase 24b (STE20 homolog, yeast) (stk24b), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_046053557</Hit_accession>
+  <Hit_len>2346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.36946</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>316</Hsp_hit-from>
+      <Hsp_hit-to>346</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>GCTAGCTAGCTAACGATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>GCTAGCGGGCTAACCATGCTAGCTAGCTGAC</Hsp_hseq>
+      <Hsp_midline>||||||  |||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|2651149502|ref|XM_062380766.1|</Hit_id>
+  <Hit_def>PREDICTED: Platichthys flesus serine/threonine kinase 24b (STE20 homolog, yeast) (stk24b), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_062380766</Hit_accession>
+  <Hit_len>2100</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.36946</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>GCTAGCTAGCTAACGATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>GCAAGCGAGCTAACCATGCTAGCTAGCTGAC</Hsp_hseq>
+      <Hsp_midline>|| ||| ||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|2651149500|ref|XM_062380765.1|</Hit_id>
+  <Hit_def>PREDICTED: Platichthys flesus serine/threonine kinase 24b (STE20 homolog, yeast) (stk24b), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_062380765</Hit_accession>
+  <Hit_len>3988</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.36946</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>GCTAGCTAGCTAACGATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>GCAAGCGAGCTAACCATGCTAGCTAGCTGAC</Hsp_hseq>
+      <Hsp_midline>|| ||| ||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|2898616191|ref|XR_011629397.1|</Hit_id>
+  <Hit_def>PREDICTED: Oncorhynchus clarkii lewisi ubiquitin-protein ligase E3B-like (LOC139389286), transcript variant X2, misc_RNA</Hit_def>
+  <Hit_accession>XR_011629397</Hit_accession>
+  <Hit_len>5864</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.36946</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>232</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>GCTAGCTAGCTAACGATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>GCTAGCTAGCTAACCATAATAGCTAGCTGAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| ||  ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|2048002524|ref|XM_041966538.1|</Hit_id>
+  <Hit_def>PREDICTED: Chelmon rostratus serine/threonine kinase 24b (STE20 homolog, yeast) (stk24b), mRNA</Hit_def>
+  <Hit_accession>XM_041966538</Hit_accession>
+  <Hit_len>4099</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.36946</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>238</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>GCTAGCTAGCTAACGATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>GCTAGCGAGCTAACCATGTTAGCTAGCTGAC</Hsp_hseq>
+      <Hsp_midline>|||||| ||||||| ||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|2216697721|ref|XM_035149988.2|</Hit_id>
+  <Hit_def>PREDICTED: Hippoglossus stenolepis serine/threonine kinase 24b (STE20 homolog, yeast) (stk24b), mRNA</Hit_def>
+  <Hit_accession>XM_035149988</Hit_accession>
+  <Hit_len>3989</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.36946</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>267</Hsp_hit-from>
+      <Hsp_hit-to>297</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>GCTAGCTAGCTAACGATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>GCAAGCGAGCTAACCATGCTAGCTAGCTGAC</Hsp_hseq>
+      <Hsp_midline>|| ||| ||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|2898616189|ref|XM_071135873.1|</Hit_id>
+  <Hit_def>PREDICTED: Oncorhynchus clarkii lewisi ubiquitin-protein ligase E3B-like (LOC139389286), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_071135873</Hit_accession>
+  <Hit_len>6830</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.36946</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>248</Hsp_hit-from>
+      <Hsp_hit-to>278</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>GCTAGCTAGCTAACGATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>GCTAGCTAGCTAACCATAATAGCTAGCTGAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| ||  ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|2916612921|ref|XM_071514656.1|</Hit_id>
+  <Hit_def>PREDICTED: Centroberyx affinis serine/threonine kinase 24b (STE20 homolog, yeast) (stk24b), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_071514656</Hit_accession>
+  <Hit_len>1974</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.36946</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>235</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>GCTAGCTAGCTAACGATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>GCTAGCAAGCTAACCATGTTAGCTAGCTGAC</Hsp_hseq>
+      <Hsp_midline>|||||| ||||||| ||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|2285808376|ref|XM_050063412.1|</Hit_id>
+  <Hit_def>PREDICTED: Epinephelus moara serine/threonine kinase 24b (STE20 homolog, yeast) (stk24b), mRNA</Hit_def>
+  <Hit_accession>XM_050063412</Hit_accession>
+  <Hit_len>4140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.36946</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>266</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>GCTAGCTAGCTAACGATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>GCTAGCGAGCTAACCATGTTAGCTAGCTGAC</Hsp_hseq>
+      <Hsp_midline>|||||| ||||||| ||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1994574659|ref|XM_039793400.1|</Hit_id>
+  <Hit_def>PREDICTED: Perca fluviatilis serine/threonine kinase 24b (STE20 homolog, yeast) (stk24b), mRNA</Hit_def>
+  <Hit_accession>XM_039793400</Hit_accession>
+  <Hit_len>2210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.36946</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>260</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>GCTAGCTAGCTAACGATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>GCTAGCGAGCTAACCATGTTAGCTAGCTGAC</Hsp_hseq>
+      <Hsp_midline>|||||| ||||||| ||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|2065107752|ref|XR_002955475.2|</Hit_id>
+  <Hit_def>PREDICTED: Oncorhynchus tshawytscha ubiquitin-protein ligase E3B (LOC112263288), transcript variant X2, misc_RNA</Hit_def>
+  <Hit_accession>XR_002955475</Hit_accession>
+  <Hit_len>5896</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.36946</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>255</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>GCTAGCTAGCTAACGATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>GCTAGCTAGCTAACCATAATAGCTAGCTGAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| ||  ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|2806674909|ref|XM_068590336.1|</Hit_id>
+  <Hit_def>PREDICTED: Clinocottus analis sodium-driven chloride bicarbonate exchanger-like (LOC137793905), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_068590336</Hit_accession>
+  <Hit_len>7127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.36946</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>264</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>GCTAGCTAGCTAACGATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>GCTAACGAGCTAACCATGCTAGCTAGCTGAC</Hsp_hseq>
+      <Hsp_midline>|||| | ||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|2924193857|ref|XM_071906878.1|</Hit_id>
+  <Hit_def>PREDICTED: Centroberyx gerrardi serine/threonine kinase 24b (STE20 homolog, yeast) (stk24b), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_071906878</Hit_accession>
+  <Hit_len>2026</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.36946</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>235</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>GCTAGCTAGCTAACGATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>GCTAGCAAGCTAACCATGTTAGCTAGCTGAC</Hsp_hseq>
+      <Hsp_midline>|||||| ||||||| ||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|2437499570|ref|XM_053231887.1|</Hit_id>
+  <Hit_def>PREDICTED: Pangasianodon hypophthalmus angel homolog 2 (Drosophila) (angel2), transcript variant X9, mRNA</Hit_def>
+  <Hit_accession>XM_053231887</Hit_accession>
+  <Hit_len>2996</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.36946</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>236</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>ATGCTAGCTAGCTAA--CGATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>ATGCTAGCTAGCTAACCCCATGCTAGCTAGCTAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||  | ||||||||||||| ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.0587</Hsp_bit-score>
+      <Hsp_score>43</Hsp_score>
+      <Hsp_evalue>4.50094</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>31</Hsp_query-to>
+      <Hsp_hit-from>255</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>ATGCTAGCTAGCTAACGATGCTAGCTAGCTG</Hsp_qseq>
+      <Hsp_hseq>ATGCTAGCTAGCTAACGCTGCTTGCT-GCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||| |||| ||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1951318584|ref|XM_038716534.1|</Hit_id>
+  <Hit_def>Micropterus salmoides serine/threonine-protein kinase 24 (stk24b), mRNA</Hit_def>
+  <Hit_accession>XM_038716534</Hit_accession>
+  <Hit_len>4104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.36946</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>GCTAGCTAGCTAACGATGCTAGCTAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>GCTAGCGGGCTAACCATGCTAGCTAGCTGAC</Hsp_hseq>
+      <Hsp_midline>||||||  |||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>118136970</Statistics_db-num>
+      <Statistics_db-len>923206411260</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

@@ -1,0 +1,1613 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>core_nt</BlastOutput_db>
+  <BlastOutput_query-ID>Query_6101895</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>36</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_6101895</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>36</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|2401199116|ref|XM_035781006.2|</Hit_id>
+  <Hit_def>PREDICTED: Oncorhynchus keta palmitoyltransferase ZDHHC20-B-like (LOC118390438), mRNA</Hit_def>
+  <Hit_accession>XM_035781006</Hit_accession>
+  <Hit_len>13088</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>0.0303154</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>8197</Hsp_hit-from>
+      <Hsp_hit-to>8173</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>CGGATCGTAGCTAGCTAGCTAGCTA</Hsp_qseq>
+      <Hsp_hseq>CGGATCGTAGCTAGCTAGCTAGCTA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|2285753076|ref|XM_050073952.1|</Hit_id>
+  <Hit_def>PREDICTED: Epinephelus moara uncharacterized si:ch73-204p21.2 (si:ch73-204p21.2), transcript variant X5, mRNA</Hit_def>
+  <Hit_accession>XM_050073952</Hit_accession>
+  <Hit_len>4108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.5672</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>0.105811</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>84</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>24</Hsp_align-len>
+      <Hsp_qseq>TAGCTAGCTAGCTAGCTAATGCTA</Hsp_qseq>
+      <Hsp_hseq>TAGCTAGCTAGCTAGCTAATGCTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1317104961|ref|XM_023408111.1|</Hit_id>
+  <Hit_def>PREDICTED: Seriola lalandi dorsalis ferredoxin reductase (fdxr), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_023408111</Hit_accession>
+  <Hit_len>2020</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.5672</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>0.105811</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>228</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>24</Hsp_align-len>
+      <Hsp_qseq>TAGCTAGCTAGCTAGCTAATGCTA</Hsp_qseq>
+      <Hsp_hseq>TAGCTAGCTAGCTAGCTAATGCTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|2285753072|ref|XM_050073870.1|</Hit_id>
+  <Hit_def>PREDICTED: Epinephelus moara uncharacterized si:ch73-204p21.2 (si:ch73-204p21.2), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_050073870</Hit_accession>
+  <Hit_len>4120</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.5672</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>0.105811</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>90</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>24</Hsp_align-len>
+      <Hsp_qseq>TAGCTAGCTAGCTAGCTAATGCTA</Hsp_qseq>
+      <Hsp_hseq>TAGCTAGCTAGCTAGCTAATGCTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1882650020|ref|XM_018971279.2|</Hit_id>
+  <Hit_def>PREDICTED: Juglans regia gamma-glutamyl peptidase 5-like (LOC108995673), mRNA</Hit_def>
+  <Hit_accession>XM_018971279</Hit_accession>
+  <Hit_len>1366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.5672</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>0.105811</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>1267</Hsp_hit-from>
+      <Hsp_hit-to>1244</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>24</Hsp_align-len>
+      <Hsp_qseq>TAGCTAGCTAGCTAGCTAATGCTA</Hsp_qseq>
+      <Hsp_hseq>TAGCTAGCTAGCTAGCTAATGCTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|2510623614|ref|XM_056365681.1|</Hit_id>
+  <Hit_def>PREDICTED: Seriola aureovittata ferredoxin reductase (fdxr), mRNA</Hit_def>
+  <Hit_accession>XM_056365681</Hit_accession>
+  <Hit_len>2187</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.5672</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>0.105811</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>396</Hsp_hit-from>
+      <Hsp_hit-to>373</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>24</Hsp_align-len>
+      <Hsp_qseq>TAGCTAGCTAGCTAGCTAATGCTA</Hsp_qseq>
+      <Hsp_hseq>TAGCTAGCTAGCTAGCTAATGCTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1317104959|ref|XM_023408110.1|</Hit_id>
+  <Hit_def>PREDICTED: Seriola lalandi dorsalis ferredoxin reductase (fdxr), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_023408110</Hit_accession>
+  <Hit_len>2066</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.5672</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>0.105811</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>229</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>24</Hsp_align-len>
+      <Hsp_qseq>TAGCTAGCTAGCTAGCTAATGCTA</Hsp_qseq>
+      <Hsp_hseq>TAGCTAGCTAGCTAGCTAATGCTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|2276542849|ref|XM_049596732.1|</Hit_id>
+  <Hit_def>PREDICTED: Epinephelus fuscoguttatus uncharacterized si:ch73-204p21.2 (si:ch73-204p21.2), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_049596732</Hit_accession>
+  <Hit_len>3933</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.5672</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>0.105811</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>44</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>24</Hsp_align-len>
+      <Hsp_qseq>TAGCTAGCTAGCTAGCTAATGCTA</Hsp_qseq>
+      <Hsp_hseq>TAGCTAGCTAGCTAGCTAATGCTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1250116206|ref|XM_022743330.1|</Hit_id>
+  <Hit_def>PREDICTED: Seriola dumerili ferredoxin reductase (fdxr), mRNA</Hit_def>
+  <Hit_accession>XM_022743330</Hit_accession>
+  <Hit_len>2345</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.5672</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>0.105811</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>304</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>24</Hsp_align-len>
+      <Hsp_qseq>TAGCTAGCTAGCTAGCTAATGCTA</Hsp_qseq>
+      <Hsp_hseq>TAGCTAGCTAGCTAGCTAATGCTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|2871108381|ref|XR_011474348.1|</Hit_id>
+  <Hit_def>PREDICTED: Salvelinus sp. IW2-2015 uncharacterized lncRNA (LOC139023209), ncRNA</Hit_def>
+  <Hit_accession>XR_011474348</Hit_accession>
+  <Hit_len>663</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.369317</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>31</Hsp_query-to>
+      <Hsp_hit-from>385</Hsp_hit-from>
+      <Hsp_hit-to>410</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>CGGATCGTAGCTAGCTAGCTAGCTAA</Hsp_qseq>
+      <Hsp_hseq>CGGATCGTAGCTAGCTAGCTAACTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1898644722|ref|XM_036001491.1|</Hit_id>
+  <Hit_def>PREDICTED: Sander lucioperca KIAA0753 ortholog (kiaa0753), transcript variant X5, mRNA</Hit_def>
+  <Hit_accession>XM_036001491</Hit_accession>
+  <Hit_len>3650</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.369317</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>210</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>CGTAGCTAGCTAGCTAGCTAATGCTA</Hsp_qseq>
+      <Hsp_hseq>CGTAGCTAGTTAGCTAGCTAATGCTA</Hsp_hseq>
+      <Hsp_midline>||||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1842307849|ref|XM_034529993.1|</Hit_id>
+  <Hit_def>PREDICTED: Cyclopterus lumpus proline-rich coiled-coil 2C (prrc2c), transcript variant X5, mRNA</Hit_def>
+  <Hit_accession>XM_034529993</Hit_accession>
+  <Hit_len>10665</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.369317</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>264</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>GCGGATCGTAGCTAGCTAGCTAGCTA</Hsp_qseq>
+      <Hsp_hseq>GCGGAGCGTAGCTAGCTAGCTAGCTA</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1898644724|ref|XM_031297586.2|</Hit_id>
+  <Hit_def>PREDICTED: Sander lucioperca KIAA0753 ortholog (kiaa0753), transcript variant X6, mRNA</Hit_def>
+  <Hit_accession>XM_031297586</Hit_accession>
+  <Hit_len>3629</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.369317</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>210</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>CGTAGCTAGCTAGCTAGCTAATGCTA</Hsp_qseq>
+      <Hsp_hseq>CGTAGCTAGTTAGCTAGCTAATGCTA</Hsp_hseq>
+      <Hsp_midline>||||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1898644717|ref|XM_031297583.2|</Hit_id>
+  <Hit_def>PREDICTED: Sander lucioperca KIAA0753 ortholog (kiaa0753), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_031297583</Hit_accession>
+  <Hit_len>3668</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.369317</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>210</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>CGTAGCTAGCTAGCTAGCTAATGCTA</Hsp_qseq>
+      <Hsp_hseq>CGTAGCTAGTTAGCTAGCTAATGCTA</Hsp_hseq>
+      <Hsp_midline>||||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1951421207|ref|XM_038709300.1|</Hit_id>
+  <Hit_def>Micropterus salmoides gamma-aminobutyric acid receptor subunit alpha-1 (gabra1), mRNA</Hit_def>
+  <Hit_accession>XM_038709300</Hit_accession>
+  <Hit_len>6219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.369317</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>5745</Hsp_hit-from>
+      <Hsp_hit-to>5770</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>CGTAGCTAGCTAGCTAGCTAATGCTA</Hsp_qseq>
+      <Hsp_hseq>CGTAGCTAGCTAGCTAGCTAGTGCTA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1842307851|ref|XM_034529994.1|</Hit_id>
+  <Hit_def>PREDICTED: Cyclopterus lumpus proline-rich coiled-coil 2C (prrc2c), transcript variant X6, mRNA</Hit_def>
+  <Hit_accession>XM_034529994</Hit_accession>
+  <Hit_len>10665</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.369317</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>264</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>GCGGATCGTAGCTAGCTAGCTAGCTA</Hsp_qseq>
+      <Hsp_hseq>GCGGAGCGTAGCTAGCTAGCTAGCTA</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1842307843|ref|XM_034529990.1|</Hit_id>
+  <Hit_def>PREDICTED: Cyclopterus lumpus proline-rich coiled-coil 2C (prrc2c), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_034529990</Hit_accession>
+  <Hit_len>10707</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.369317</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>264</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>GCGGATCGTAGCTAGCTAGCTAGCTA</Hsp_qseq>
+      <Hsp_hseq>GCGGAGCGTAGCTAGCTAGCTAGCTA</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1951421203|ref|XM_038709298.1|</Hit_id>
+  <Hit_def>Micropterus salmoides gamma-aminobutyric acid receptor subunit alpha-1 (gabra1), mRNA</Hit_def>
+  <Hit_accession>XM_038709298</Hit_accession>
+  <Hit_len>6325</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.369317</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>5851</Hsp_hit-from>
+      <Hsp_hit-to>5876</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>CGTAGCTAGCTAGCTAGCTAATGCTA</Hsp_qseq>
+      <Hsp_hseq>CGTAGCTAGCTAGCTAGCTAGTGCTA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1898644725|ref|XM_031297587.2|</Hit_id>
+  <Hit_def>PREDICTED: Sander lucioperca KIAA0753 ortholog (kiaa0753), transcript variant X7, mRNA</Hit_def>
+  <Hit_accession>XM_031297587</Hit_accession>
+  <Hit_len>3626</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.369317</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>210</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>CGTAGCTAGCTAGCTAGCTAATGCTA</Hsp_qseq>
+      <Hsp_hseq>CGTAGCTAGTTAGCTAGCTAATGCTA</Hsp_hseq>
+      <Hsp_midline>||||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1951421199|ref|XM_038709296.1|</Hit_id>
+  <Hit_def>Micropterus salmoides gamma-aminobutyric acid receptor subunit alpha-1 (gabra1), mRNA</Hit_def>
+  <Hit_accession>XM_038709296</Hit_accession>
+  <Hit_len>6668</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.369317</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>6194</Hsp_hit-from>
+      <Hsp_hit-to>6219</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>CGTAGCTAGCTAGCTAGCTAATGCTA</Hsp_qseq>
+      <Hsp_hseq>CGTAGCTAGCTAGCTAGCTAGTGCTA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1951421201|ref|XM_038709297.1|</Hit_id>
+  <Hit_def>Micropterus salmoides gamma-aminobutyric acid receptor subunit alpha-1 (gabra1), mRNA</Hit_def>
+  <Hit_accession>XM_038709297</Hit_accession>
+  <Hit_len>6237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.369317</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>5763</Hsp_hit-from>
+      <Hsp_hit-to>5788</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>CGTAGCTAGCTAGCTAGCTAATGCTA</Hsp_qseq>
+      <Hsp_hseq>CGTAGCTAGCTAGCTAGCTAGTGCTA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1951421197|ref|XM_038709293.1|</Hit_id>
+  <Hit_def>Micropterus salmoides gamma-aminobutyric acid receptor subunit alpha-1 (gabra1), mRNA</Hit_def>
+  <Hit_accession>XM_038709293</Hit_accession>
+  <Hit_len>6351</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.369317</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>5877</Hsp_hit-from>
+      <Hsp_hit-to>5902</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>CGTAGCTAGCTAGCTAGCTAATGCTA</Hsp_qseq>
+      <Hsp_hseq>CGTAGCTAGCTAGCTAGCTAGTGCTA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1898644719|ref|XM_031297585.2|</Hit_id>
+  <Hit_def>PREDICTED: Sander lucioperca KIAA0753 ortholog (kiaa0753), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_031297585</Hit_accession>
+  <Hit_len>3665</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.369317</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>210</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>CGTAGCTAGCTAGCTAGCTAATGCTA</Hsp_qseq>
+      <Hsp_hseq>CGTAGCTAGTTAGCTAGCTAATGCTA</Hsp_hseq>
+      <Hsp_midline>||||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1898644720|ref|XM_036001490.1|</Hit_id>
+  <Hit_def>PREDICTED: Sander lucioperca KIAA0753 ortholog (kiaa0753), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_036001490</Hit_accession>
+  <Hit_len>3653</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.369317</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>210</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>CGTAGCTAGCTAGCTAGCTAATGCTA</Hsp_qseq>
+      <Hsp_hseq>CGTAGCTAGTTAGCTAGCTAATGCTA</Hsp_hseq>
+      <Hsp_midline>||||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1898644727|ref|XM_031297589.2|</Hit_id>
+  <Hit_def>PREDICTED: Sander lucioperca KIAA0753 ortholog (kiaa0753), transcript variant X9, mRNA</Hit_def>
+  <Hit_accession>XM_031297589</Hit_accession>
+  <Hit_len>3557</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.369317</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>210</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>CGTAGCTAGCTAGCTAGCTAATGCTA</Hsp_qseq>
+      <Hsp_hseq>CGTAGCTAGTTAGCTAGCTAATGCTA</Hsp_hseq>
+      <Hsp_midline>||||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1898644726|ref|XM_031297588.2|</Hit_id>
+  <Hit_def>PREDICTED: Sander lucioperca KIAA0753 ortholog (kiaa0753), transcript variant X8, mRNA</Hit_def>
+  <Hit_accession>XM_031297588</Hit_accession>
+  <Hit_len>3596</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.369317</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>210</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>CGTAGCTAGCTAGCTAGCTAATGCTA</Hsp_qseq>
+      <Hsp_hseq>CGTAGCTAGTTAGCTAGCTAATGCTA</Hsp_hseq>
+      <Hsp_midline>||||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1898644718|ref|XM_031297584.2|</Hit_id>
+  <Hit_def>PREDICTED: Sander lucioperca KIAA0753 ortholog (kiaa0753), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_031297584</Hit_accession>
+  <Hit_len>3665</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.369317</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>210</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>CGTAGCTAGCTAGCTAGCTAATGCTA</Hsp_qseq>
+      <Hsp_hseq>CGTAGCTAGTTAGCTAGCTAATGCTA</Hsp_hseq>
+      <Hsp_midline>||||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1842307847|ref|XM_034529992.1|</Hit_id>
+  <Hit_def>PREDICTED: Cyclopterus lumpus proline-rich coiled-coil 2C (prrc2c), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_034529992</Hit_accession>
+  <Hit_len>9127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.369317</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>264</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>GCGGATCGTAGCTAGCTAGCTAGCTA</Hsp_qseq>
+      <Hsp_hseq>GCGGAGCGTAGCTAGCTAGCTAGCTA</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1951421205|ref|XM_038709299.1|</Hit_id>
+  <Hit_def>Micropterus salmoides gamma-aminobutyric acid receptor subunit alpha-1 (gabra1), mRNA</Hit_def>
+  <Hit_accession>XM_038709299</Hit_accession>
+  <Hit_len>6666</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.369317</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>6192</Hsp_hit-from>
+      <Hsp_hit-to>6217</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>CGTAGCTAGCTAGCTAGCTAATGCTA</Hsp_qseq>
+      <Hsp_hseq>CGTAGCTAGCTAGCTAGCTAGTGCTA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1842307845|ref|XM_034529991.1|</Hit_id>
+  <Hit_def>PREDICTED: Cyclopterus lumpus proline-rich coiled-coil 2C (prrc2c), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_034529991</Hit_accession>
+  <Hit_len>10707</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.369317</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>264</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>GCGGATCGTAGCTAGCTAGCTAGCTA</Hsp_qseq>
+      <Hsp_hseq>GCGGAGCGTAGCTAGCTAGCTAGCTA</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1842307841|ref|XM_034529988.1|</Hit_id>
+  <Hit_def>PREDICTED: Cyclopterus lumpus proline-rich coiled-coil 2C (prrc2c), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_034529988</Hit_accession>
+  <Hit_len>10716</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.369317</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>264</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>GCGGATCGTAGCTAGCTAGCTAGCTA</Hsp_qseq>
+      <Hsp_hseq>GCGGAGCGTAGCTAGCTAGCTAGCTA</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|2946531224|ref|XM_072682004.1|</Hit_id>
+  <Hit_def>PREDICTED: Salminus brasiliensis mitochondrial ribosomal protein L40 (mrpl40), mRNA</Hit_def>
+  <Hit_accession>XM_072682004</Hit_accession>
+  <Hit_len>1020</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.369317</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>35</Hsp_query-to>
+      <Hsp_hit-from>106</Hsp_hit-from>
+      <Hsp_hit-to>84</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>TAGCTAGCTAGCTAGCTAATGCT</Hsp_qseq>
+      <Hsp_hseq>TAGCTAGCTAGCTAGCTAATGCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|2727912171|ref|XM_065021115.1|</Hit_id>
+  <Hit_def>PREDICTED: Oncorhynchus nerka constitutive coactivator of PPAR-gamma-like protein 2 (LOC115126149), mRNA</Hit_def>
+  <Hit_accession>XM_065021115</Hit_accession>
+  <Hit_len>9338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.369317</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>7632</Hsp_hit-from>
+      <Hsp_hit-to>7659</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ATCGTAGCTAGCTAGCTAGCTAATGCTA</Hsp_qseq>
+      <Hsp_hseq>ATCTTAGCTAGCTAGCTAGCTAATGTTA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.369317</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>7760</Hsp_hit-from>
+      <Hsp_hit-to>7787</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ATCGTAGCTAGCTAGCTAGCTAATGCTA</Hsp_qseq>
+      <Hsp_hseq>ATCTTAGCTAGCTAGCTAGCTAATGTTA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.369317</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>7824</Hsp_hit-from>
+      <Hsp_hit-to>7851</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ATCGTAGCTAGCTAGCTAGCTAATGCTA</Hsp_qseq>
+      <Hsp_hseq>ATCTTAGCTAGCTAGCTAGCTAATGTTA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.369317</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>8188</Hsp_hit-from>
+      <Hsp_hit-to>8215</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ATCGTAGCTAGCTAGCTAGCTAATGCTA</Hsp_qseq>
+      <Hsp_hseq>ATCTTAGCTAGCTAGCTAGCTAATGTTA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>5</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.369317</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>8312</Hsp_hit-from>
+      <Hsp_hit-to>8339</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ATCGTAGCTAGCTAGCTAGCTAATGCTA</Hsp_qseq>
+      <Hsp_hseq>ATCTTAGCTAGCTAGCTAGCTAATGTTA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>6</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.369317</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>8376</Hsp_hit-from>
+      <Hsp_hit-to>8403</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ATCGTAGCTAGCTAGCTAGCTAATGCTA</Hsp_qseq>
+      <Hsp_hseq>ATCTTAGCTAGCTAGCTAGCTAATGTTA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>7</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.369317</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>8440</Hsp_hit-from>
+      <Hsp_hit-to>8467</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ATCGTAGCTAGCTAGCTAGCTAATGCTA</Hsp_qseq>
+      <Hsp_hseq>ATCTTAGCTAGCTAGCTAGCTAATGTTA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>8</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.369317</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>8576</Hsp_hit-from>
+      <Hsp_hit-to>8603</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ATCGTAGCTAGCTAGCTAGCTAATGCTA</Hsp_qseq>
+      <Hsp_hseq>ATCTTAGCTAGCTAGCTAGCTAATGTTA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>9</Hsp_num>
+      <Hsp_bit-score>40.0587</Hsp_bit-score>
+      <Hsp_score>43</Hsp_score>
+      <Hsp_evalue>4.49921</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>8516</Hsp_hit-from>
+      <Hsp_hit-to>8539</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>24</Hsp_align-len>
+      <Hsp_qseq>TAGCTAGCTAGCTAGCTAATGCTA</Hsp_qseq>
+      <Hsp_hseq>TAGCTAGCTAGCTAGCTAATGTTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1604822247|ref|XM_028573383.1|</Hit_id>
+  <Hit_def>PREDICTED: Perca flavescens leucine rich repeat containing 51 (lrrc51), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_028573383</Hit_accession>
+  <Hit_len>2953</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.369317</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>35</Hsp_query-to>
+      <Hsp_hit-from>143</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>TAGCTAGCTAGCTAGCTAATGCT</Hsp_qseq>
+      <Hsp_hseq>TAGCTAGCTAGCTAGCTAATGCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|3034428331|emb|LR880665.2|</Hit_id>
+  <Hit_def>Poecilia reticulata genome assembly, chromosome: 21</Hit_def>
+  <Hit_accession>LR880665</Hit_accession>
+  <Hit_len>25908395</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.369317</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>35</Hsp_query-to>
+      <Hsp_hit-from>12857601</Hsp_hit-from>
+      <Hsp_hit-to>12857623</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>TAGCTAGCTAGCTAGCTAATGCT</Hsp_qseq>
+      <Hsp_hseq>TAGCTAGCTAGCTAGCTAATGCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>39.157</Hsp_bit-score>
+      <Hsp_score>42</Hsp_score>
+      <Hsp_evalue>4.49921</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>15683284</Hsp_hit-from>
+      <Hsp_hit-to>15683304</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>TAGCTAGCTAGCTAGCTAATG</Hsp_qseq>
+      <Hsp_hseq>TAGCTAGCTAGCTAGCTAATG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1885279427|emb|LR862151.1|</Hit_id>
+  <Hit_def>Ananas comosus var. bracteatus genome assembly, chromosome: 23</Hit_def>
+  <Hit_accession>LR862151</Hit_accession>
+  <Hit_len>15631527</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.369317</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>9049083</Hsp_hit-from>
+      <Hsp_hit-to>9049061</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>GATCGTAGCTAGCTAGCTAGCTA</Hsp_qseq>
+      <Hsp_hseq>GATCGTAGCTAGCTAGCTAGCTA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1435182560|ref|XM_025972278.1|</Hit_id>
+  <Hit_def>PREDICTED: Panicum hallii probable WRKY transcription factor 69 (LOC112903069), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_025972278</Hit_accession>
+  <Hit_len>1320</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.369317</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>31</Hsp_query-to>
+      <Hsp_hit-from>1189</Hsp_hit-from>
+      <Hsp_hit-to>1167</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATCGTAGCTAGCTAGCTAGCTAA</Hsp_qseq>
+      <Hsp_hseq>ATCGTAGCTAGCTAGCTAGCTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|2022362030|ref|XM_006655868.3|</Hit_id>
+  <Hit_def>PREDICTED: Oryza brachyantha transcription factor ILI4 (LOC102722128), mRNA</Hit_def>
+  <Hit_accession>XM_006655868</Hit_accession>
+  <Hit_len>961</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.369317</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>35</Hsp_query-to>
+      <Hsp_hit-from>802</Hsp_hit-from>
+      <Hsp_hit-to>780</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>TAGCTAGCTAGCTAGCTAATGCT</Hsp_qseq>
+      <Hsp_hseq>TAGCTAGCTAGCTAGCTAATGCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|2276584047|ref|XM_049582604.1|</Hit_id>
+  <Hit_def>PREDICTED: Epinephelus fuscoguttatus RNA binding fox-1 homolog 1, like (rbfox1l), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_049582604</Hit_accession>
+  <Hit_len>3955</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.369317</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>35</Hsp_query-to>
+      <Hsp_hit-from>2617</Hsp_hit-from>
+      <Hsp_hit-to>2639</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>TAGCTAGCTAGCTAGCTAATGCT</Hsp_qseq>
+      <Hsp_hseq>TAGCTAGCTAGCTAGCTAATGCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1435182558|ref|XM_025972277.1|</Hit_id>
+  <Hit_def>PREDICTED: Panicum hallii probable WRKY transcription factor 69 (LOC112903069), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_025972277</Hit_accession>
+  <Hit_len>1322</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.369317</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>31</Hsp_query-to>
+      <Hsp_hit-from>1191</Hsp_hit-from>
+      <Hsp_hit-to>1169</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATCGTAGCTAGCTAGCTAGCTAA</Hsp_qseq>
+      <Hsp_hseq>ATCGTAGCTAGCTAGCTAGCTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1435182562|ref|XM_025972279.1|</Hit_id>
+  <Hit_def>PREDICTED: Panicum hallii probable WRKY transcription factor 69 (LOC112903069), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_025972279</Hit_accession>
+  <Hit_len>1317</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.369317</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>31</Hsp_query-to>
+      <Hsp_hit-from>1186</Hsp_hit-from>
+      <Hsp_hit-to>1164</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATCGTAGCTAGCTAGCTAGCTAA</Hsp_qseq>
+      <Hsp_hseq>ATCGTAGCTAGCTAGCTAGCTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1811605982|ref|XM_032520869.1|</Hit_id>
+  <Hit_def>PREDICTED: Etheostoma spectabile transcription factor-like 5 protein (LOC116692518), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_032520869</Hit_accession>
+  <Hit_len>2732</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.369317</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>32</Hsp_query-to>
+      <Hsp_hit-from>243</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>TCGTAGCTAGCTAGCTAGCTAAT</Hsp_qseq>
+      <Hsp_hseq>TCGTAGCTAGCTAGCTAGCTAAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|2871085727|ref|XM_024004909.2|</Hit_id>
+  <Hit_def>PREDICTED: Salvelinus sp. IW2-2015 centrosome-associated protein 350 (LOC111976150), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_024004909</Hit_accession>
+  <Hit_len>12530</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.8621</Hsp_bit-score>
+      <Hsp_score>45</Hsp_score>
+      <Hsp_evalue>1.28904</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>32</Hsp_query-to>
+      <Hsp_hit-from>300</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>GATCGTAGCTAGCTAGCTAGCTAAT</Hsp_qseq>
+      <Hsp_hseq>GATGGTAGCTAGCTAGCTAGCTAAT</Hsp_hseq>
+      <Hsp_midline>||| |||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|2960802550|ref|XM_073404215.1|</Hit_id>
+  <Hit_def>PREDICTED: Populus alba uncharacterized protein (LOC118063405), mRNA</Hit_def>
+  <Hit_accession>XM_073404215</Hit_accession>
+  <Hit_len>970</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.8621</Hsp_bit-score>
+      <Hsp_score>45</Hsp_score>
+      <Hsp_evalue>1.28904</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>221</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>ATCGTAGCTAGCTAGCTAGCTAATG</Hsp_qseq>
+      <Hsp_hseq>ATCGTAGCTAGCTAGCTAGCTAGTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|2786108735|ref|XM_067233163.1|</Hit_id>
+  <Hit_def>PREDICTED: Osmerus mordax aurora kinase A (aurka), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_067233163</Hit_accession>
+  <Hit_len>2413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.8621</Hsp_bit-score>
+      <Hsp_score>45</Hsp_score>
+      <Hsp_evalue>1.28904</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>300</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>GTAGCTAGCTAGCTAGCTAATGCTA</Hsp_qseq>
+      <Hsp_hseq>GTAGCTAGCTAGCTAACTAATGCTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|2710672399|ref|XM_064339027.1|</Hit_id>
+  <Hit_def>PREDICTED: Anguilla rostrata nucleolin-like (LOC135256836), transcript variant X6, mRNA</Hit_def>
+  <Hit_accession>XM_064339027</Hit_accession>
+  <Hit_len>1672</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.8621</Hsp_bit-score>
+      <Hsp_score>45</Hsp_score>
+      <Hsp_evalue>1.28904</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>GTAGCTAGCTAGCTAGCTAATGCTA</Hsp_qseq>
+      <Hsp_hseq>GTAGCTAGCTAGCTAACTAATGCTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|2735153289|gb|CP140074.1|</Hit_id>
+  <Hit_def>Mantoniella tinhauana isolate LFS chromosome 13</Hit_def>
+  <Hit_accession>CP140074</Hit_accession>
+  <Hit_len>1225518</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.8621</Hsp_bit-score>
+      <Hsp_score>45</Hsp_score>
+      <Hsp_evalue>1.28904</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>1217139</Hsp_hit-from>
+      <Hsp_hit-to>1217110</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TTGCGCGGATCGTAGCTAGCTAGCTAGCTA</Hsp_qseq>
+      <Hsp_hseq>TTGTGGGGATAGTAGCTAGCTAGCTAGCTA</Hsp_hseq>
+      <Hsp_midline>||| | |||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|2871085730|ref|XM_024004912.2|</Hit_id>
+  <Hit_def>PREDICTED: Salvelinus sp. IW2-2015 centrosome-associated protein 350 (LOC111976150), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_024004912</Hit_accession>
+  <Hit_len>12407</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.8621</Hsp_bit-score>
+      <Hsp_score>45</Hsp_score>
+      <Hsp_evalue>1.28904</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>32</Hsp_query-to>
+      <Hsp_hit-from>300</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>GATCGTAGCTAGCTAGCTAGCTAAT</Hsp_qseq>
+      <Hsp_hseq>GATGGTAGCTAGCTAGCTAGCTAAT</Hsp_hseq>
+      <Hsp_midline>||| |||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|2710672401|ref|XM_064339028.1|</Hit_id>
+  <Hit_def>PREDICTED: Anguilla rostrata nucleolin-like (LOC135256836), transcript variant X7, mRNA</Hit_def>
+  <Hit_accession>XM_064339028</Hit_accession>
+  <Hit_len>1669</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.8621</Hsp_bit-score>
+      <Hsp_score>45</Hsp_score>
+      <Hsp_evalue>1.28904</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>GTAGCTAGCTAGCTAGCTAATGCTA</Hsp_qseq>
+      <Hsp_hseq>GTAGCTAGCTAGCTAACTAATGCTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|2871085728|ref|XM_024004910.2|</Hit_id>
+  <Hit_def>PREDICTED: Salvelinus sp. IW2-2015 centrosome-associated protein 350 (LOC111976150), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_024004910</Hit_accession>
+  <Hit_len>12527</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.8621</Hsp_bit-score>
+      <Hsp_score>45</Hsp_score>
+      <Hsp_evalue>1.28904</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>32</Hsp_query-to>
+      <Hsp_hit-from>300</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>GATCGTAGCTAGCTAGCTAGCTAAT</Hsp_qseq>
+      <Hsp_hseq>GATGGTAGCTAGCTAGCTAGCTAAT</Hsp_hseq>
+      <Hsp_midline>||| |||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>118136970</Statistics_db-num>
+      <Statistics_db-len>923206411260</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
