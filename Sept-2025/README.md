@@ -1,102 +1,50 @@
-# Phylogenetics, BLAST & Sequence Analysis
+# September 2025 - Bioinformatics Learning & Projects
 
-### Overview
+This folder contains all the study materials, scripts, and mini-projects I worked on during *September 2025* as part of my bioinformatics learning journey. The focus for this month was on:
 
-This folder contains scripts and data for sequence analysis, including:
+1. *Biology Foundations*
+   - DNA, RNA, and protein structure
+   - ORF finding, transcription, and translation
+   - GC content calculations
+   - Mini-projects involving sequence cleaning, analysis, and visualization
+   - Files are organized by weeks: week1_dna_biology.ipynb, week2_orf_translation.ipynb, week3_biology
 
-- Phylogenetic analysis of protein sequences
+2. *BioPython*
+   - Sequence handling with Biopython (Seq, SeqIO, SeqRecord)
+   - Codon translation, reverse complements, and GC calculations
+   - Pairwise sequence alignment
+   - Multiple sequence alignment (MSA) with MUSCLE
+   - Scripts include example FASTA files and results
 
-
-- Offline BLASTX analysis of multiple sequences
-
-
-- Mini-Project pipeline for sequence cleaning, GC calculation, transcription, translation, ORF detection, and alignments
-
-
-
-The scripts use Biopython, Pandas, Matplotlib, and MUSCLE for multiple sequence alignment.
-
-
----
-
-### Contents
-
-- Phylogenetic Analysis
-
-Retrieves protein sequences from NCBI (Entrez)
-
-Renames sequences with species information
-
-Performs multiple sequence alignment (MSA) using MUSCLE
-
-Computes distance matrix and constructs a phylogenetic tree (Neighbor Joining)
-
-Visualizes tree using Matplotlib and saves as PNG
-
-Saves tree in Newick format for future use
-
-
-- BLAST Analysis
-
-Performs offline BLASTX on multiple sequences using a local SwissProt database
-
-Parses XML results into a Pandas DataFrame
-
-Extracts hits, alignment length, E-values, and partial alignments
-
-Queries with no hits are recorded as None
-
-
-- Mini-Project: Sequence Analysis Pipeline
-
-Parses and cleans raw FASTA sequences
-
-Computes sequence metrics:
-
-Sequence length
-
-GC content (%)
-
-RNA sequence (transcription)
-
-Protein sequence (translation)
-
-Longest ORF per reading frame
-
-
-Stores results in a Pandas DataFrame
-
-Plots GC content distribution using Matplotlib
-
-Performs pairwise alignment of sequences
-
-Performs multiple sequence alignment (MSA) using MUSCLE
+3. *BLAST & Phylogenetics*
+   - Local BLASTx analysis of multiple sequences
+   - Parsing BLAST XML results into Pandas DataFrames
+   - Phylogenetic analysis using Biopython:
+     - Sequence download from NCBI Entrez
+     - Sequence renaming and formatting
+     - Multiple sequence alignment (MUSCLE)
+     - Distance matrix calculation
+     - Phylogenetic tree construction (Neighbor Joining)
+     - ASCII and graphical visualization of trees
+   - Mini-projects integrating sequence parsing, cleaning, ORF finding, transcription, translation, and alignment
 
 ---
 
-### Requirements
+## Folder Structure
 
-Python 
-
-Biopython
-
-Pandas
-
-Matplotlib
-
-MUSCLE executable (for multiple sequence alignment)
-
-
+- Biology/ – Weekly notebooks and mini-projects on DNA, RNA, protein, and mutations
+- Biopython/ – Scripts demonstrating Biopython functionalities
+- blast_and_phylogenetics/ – BLAST results, sequence analysis, and phylogenetic trees
+- file_sample/ – Example FASTA and text files used in the projects
 
 ---
 
-### Notes
+## Notes
 
-Place supporting data files in their respective subfolders (Phylogenetic, BLAST, Mini_Project)
-
-All scripts are modular and can be adapted for different sequences or projects
-
-Ensure MUSCLE executable paths are correctly set in the scripts
+- All scripts are *beginner-friendly* and designed for learning Python and bioinformatics simultaneously.
+- Results and intermediate files are included for reference.
+- Visualizations are saved as .png or .jpg for reports/presentations.
+- This folder is part of my ongoing journey to build a *bioinformatics foundation before my Master’s program*.
 
 
 ```python
